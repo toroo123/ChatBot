@@ -1,11 +1,23 @@
-.chat-container {
-  max-width: 600px;
+.container {
+  max-width: 100%;
+  height: 100%;
   margin: auto;
+  display: flex;
+  justify-content: center;
   border: 1px solid #ccc;
-  padding: 30px 60px;
+  padding: 30px 50px;
+  background-color: #1F1F2F;
+}
+img{
+  position: absolute;
+  left: 120px
+}
+.chat-container {
+  max-width: 60%;
+  max-height: 100%;
+  padding: 30px 100px;
   border-radius: 5px;
   background-color: #1F1F2F;
-  /* display: block; */
   color: #FFF;
   font-size: 16px;
 }
@@ -59,9 +71,9 @@
   background-color: #06BED8;
   color: white;
   padding: 10px 15px;
-  margin: 5px 10px ;
+  margin: 7px 10px ;
   border: none;
-  border-radius: 5px;
+  border-radius: 18px;
   cursor: pointer;
 }
 

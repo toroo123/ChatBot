@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .container {
   max-width: 100%;
   height: 100%;
@@ -22,6 +26,8 @@ img{
   font-size: 16px;
 }
 .box{
+  max-width: 60%;
+  max-height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,6 +44,7 @@ img{
 }
 
 .bot-message {
+  max-width: 60%;
   background-color: #313149;
   border-radius: 20px;
   border: 1px solid #7979AE;
@@ -64,6 +71,8 @@ img{
   margin-top: 10px;
 }
 .questionBox{
+  display: grid;
+  grid-template-columns: auto auto auto;
   padding: 50px 0px 10px 0px;
 }
 
@@ -87,5 +96,5 @@ input{
   height: 25px;
   padding: 6px 10px;
   font-size: 14px;
-  border-radius: 10px;
+  border-radius: 18px;
 }

@@ -13,7 +13,7 @@ const Chatbot = () => {
   const [input, setInput] = useState('');
 
   const getResponse = (message) => {
-    for (const key in answer) {
+    for (const key in answer) { 
       if (message.includes(key)) {
         return answer[key];
       }

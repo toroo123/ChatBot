@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { question, answer } from './data';
-import logo from '../img/logo.png'
+import logo from './img/logo.png'
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import SmartToyOutlinedIcon from '@mui/icons-material/SmartToyOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
-
 const Chatbot = () => {
   const [messages, setMessages] = useState([
     ' Сайн уу! Та асуух зүйлээ доорх сонголтоос сонгоно уу?',
@@ -51,7 +50,6 @@ const Chatbot = () => {
               </button>
           ))}
         </div>
-        
       </div>
     </div>
   );
